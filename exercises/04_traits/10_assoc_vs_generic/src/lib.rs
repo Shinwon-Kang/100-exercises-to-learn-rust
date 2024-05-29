@@ -64,8 +64,6 @@ impl Power<&u32> for u32 {
     }
 }
 
-
-
 #[cfg(test)]
 mod tests {
     use super::Power;

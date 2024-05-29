@@ -18,9 +18,7 @@ pub struct SaturatingU16 {
 
 impl SaturatingU16 {
     fn new(value: u16) -> Self {
-        SaturatingU16 {
-            value: value
-        }
+        SaturatingU16 { value: value }
     }
 }
 
